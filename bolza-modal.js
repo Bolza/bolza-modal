@@ -1,6 +1,6 @@
 (function() {
     'use strict';
-    angular.module('app.shared')
+    angular.module('bolzaModal')
       .provider('modal', factory)
       .directive('modalClose', modalClose)
       .directive('modalOpen', modalOpen);

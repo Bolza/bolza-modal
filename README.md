@@ -5,11 +5,9 @@ Modal wrapper for [ui.bootstrap.modal](https://github.com/angular-ui/bootstrap/t
 Makes modal configurable inside angular `module.config()`, allows for easy setup, inline open/close actions and passing
 data to the modal instance.
 
-To handle modals we have a component that wraps the functionality of bootstrap-modal.
-This is composed by a provider and a directive.
-
-*Repository and files are called bolza-modal for an easier search on the internet/bower/github.
-The module anyway is called 'bolzaModal' to avoid future conflict with angular official modules.*
+To better handle modals in a complex angular application i made a component that wraps the functionality of ui.bootstrap.modal
+extending it with more usable methods.
+This is composed by a provider and two directives.
 
 ## Version Numbers
 
