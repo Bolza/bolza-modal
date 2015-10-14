@@ -1,0 +1,27 @@
+{
+  "name": "bolza-modal",
+  "version": "0.1.1",
+  "authors": [
+    "Bolza <stefano.sergio@gmail.com>"
+  ],
+  "description": "Modal wrapper for ui.bootstrap.modal on AngularJS.",
+  "main": "bolza-modal.js",
+  "keywords": [
+    "AngularJS",
+    "modal",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "angular": "^1.3.0",
+      "angular-bootstrap": "^0.13.3"
+  }
+}
