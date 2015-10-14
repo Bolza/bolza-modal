@@ -121,5 +121,9 @@ Will open the modal on click.
 Will close the modal defined by `name` or the last modal opened if no name is specified.
 
 ```html
+<button modal-close="kitten.list">Close List</button>
+```
+
+```html
 <button modal-close>Close Me</button>
 ```
